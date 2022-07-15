@@ -2,14 +2,14 @@
 #include <stdlib.h>
 #include <string.h>
 
-/*FaÁa um programa que cadastre funcion·rios. Para cada funcion·rio devem
-ser cadastrados nome e sal·rio. Os dados devem ser armazenados em uma lista
-duplamente encadeada. Posteriormente, crie funÁıes para mostrar:
-ï o nome do funcion·rio que tem o maior sal·rio (em caso de empate mostrar
+/*Fa√ßa um programa que cadastre funcion√°rios. Para cada funcion√°rio devem
+ser cadastrados nome e sal√°rio. Os dados devem ser armazenados em uma lista
+duplamente encadeada. Posteriormente, crie fun√ß√µes para mostrar:
+‚Ä¢ o nome do funcion√°rio que tem o maior sal√°rio (em caso de empate mostrar
 todos);
-ï a mÈdia salarial de todos os funcion·rios juntos;
-ï a quantidade de funcion·rios com sal·rio superior a um valor fornecido pelo
-usu·rio. Caso nenhum funcion·rio satisfaÁa essa condiÁ„o, mostrar
+‚Ä¢ a m√©dia salarial de todos os funcion√°rios juntos;
+‚Ä¢ a quantidade de funcion√°rios com sal√°rio superior a um valor fornecido pelo
+usu√°rio. Caso nenhum funcion√°rio satisfa√ßa essa condi√ß√£o, mostrar
 mensagem. */
 
 typedef struct no
@@ -124,7 +124,7 @@ void main()
     char nome[30];
     do
     {
-        printf("\n Menu\n1 Inserir funcionario; \n2 Mostrar o nome do funcion·rio que tem o maior sal·rio; \n3 Mostrar a media salarial de todos os funcion·rios juntos\n4 Mostrar a quantidade de funcion·rios com sal·rio superior a um valor;\n0 Sair \n");
+        printf("\n Menu\n1 Inserir funcionario; \n2 Mostrar o nome do funcion√°rio que tem o maior sal√°rio; \n3 Mostrar a media salarial de todos os funcion√°rios juntos\n4 Mostrar a quantidade de funcion√°rios com sal√°rio superior a um valor;\n0 Sair \n");
         scanf("%d",&resp);
         if(resp == 1)
         {
